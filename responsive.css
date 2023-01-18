@@ -62,6 +62,16 @@
     .author-image {
         width: 70%;
     }
+    /* CONTACT SECTION */
+    .contact{
+        padding-top: 20px;
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }.grid #subject,
+    .grid #message{
+        grid-column: span 1;
+    }
 }
 
 /* ------------------------------
