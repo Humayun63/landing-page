@@ -150,49 +150,59 @@ header>.container {
 -------------------------*/
 /* CARD SECTION */
 .cards,
-.review-section{
+.review-section {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-.card{
+
+.card {
     background: linear-gradient(243.41deg, #5FFBF1 -0.69%, #86A8E7 39.69%, #D16BA5 100%);
     border-radius: 20px;
     width: 30%;
     padding: 50px 46px;
 }
-.card i{
+
+.card i {
     font-size: 50px;
     margin-bottom: 19px;
 }
-.card-title{
+
+.card-title {
     margin-bottom: 19px;
 }
+
 /* ABOUT ME SECTION */
-.about-me{
+.about-me {
     background: linear-gradient(243.41deg, #D16BA5 -0.69%, #86A8E7 61.72%, #5FFBF1 100%);
 }
-.about-me-content{
+
+.about-me-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.about-me-thumbline{
+
+.about-me-thumbline {
     width: 30%;
 }
-.about-me-thumbline img{
+
+.about-me-thumbline img {
     padding: 25px 40px 10px;
     border-radius: 50%;
     background-color: #FFFFFF;
 }
-.about-me-text-box{
+
+.about-me-text-box {
     width: 50%;
 }
-.section-title{
+
+.section-title {
     margin-bottom: 30px;
 }
+
 /* REVIEW SECTION */
-.review-item{
+.review-item {
     background: linear-gradient(243.41deg, #5FFBF1 -0.69%, #86A8E7 39.69%, #D16BA5 100%);
     border-radius: 20px;
     padding: 50px 10px;
@@ -202,16 +212,62 @@ header>.container {
     width: 45%;
     text-align: justify;
 }
-.review-box-item{
-    width:60%;
+
+.review-box-item {
+    width: 60%;
 }
-.author-image{
-    width:30%;
+
+.author-image {
+    width: 30%;
     padding: 25px 10px 0;
     background-color: #FFFFFF;
     border-radius: 50%;
 }
-.author-name{
+
+.author-name {
     text-align: left;
     margin-bottom: 20px;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+    background: linear-gradient(243.41deg, #5FFBF1 -0.69%, #86A8E7 39.69%, #D16BA5 100%);
+}
+
+input,
+textarea {
+    border: 3px solid #FFFFFF;
+    border-radius: 50px;
+    background: none;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    outline: none;
+}
+input::placeholder,
+textarea::placeholder{
+    color: #FFFFFF;
+    opacity: 0.7;
+  }
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder { 
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.grid #subject,
+.grid #message{
+    grid-column: span 2;
+}
+.contact > .btn-primary{
+    display: block;
+    margin:20px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
