@@ -83,7 +83,7 @@ img{
 -------------------------*/
 header {
     background: linear-gradient(243.41deg, #5FFBF1 -0.69%, #86A8E7 39.69%, #D16BA5 100%);
-    height: 90vh;
+    height: auto;
     width: 100%;
 }
 header>.container{

@@ -7,11 +7,25 @@
         padding:10px 15px;
     }
     /* HEADER */
+    header{
+        height: auto;
+    }
     .small-menu{
         display: block;
     }
     .menu{
         display: none;
+    }
+    .header-banner{
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    .header-banner >div{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 30px;
     }
 }
 
@@ -19,12 +33,30 @@
     MEDIAM OR TABLET DEVICE
 ---------------------------------*/
 @media only screen and (min-width:669px) and (max-width:992px) {
+    *{
+        font-size: 18px;
+    }
     /* HEADER */
+    header{
+        height: auto;
+    }
     .navbar{
         flex-direction: column;
         gap: 20px;
     }
     .navbar a{
         font-size: 25px;
+    }
+    .header-banner{
+        padding-top: 40px;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .header-banner>div{
+        width: 100%;
+    }
+    .banner-description{
+        margin:20px  0px;
+
     }
 }
