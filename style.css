@@ -12,7 +12,7 @@
 .container {
     width: 80%;
     margin: auto;
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 h1 {
@@ -37,16 +37,20 @@ h4 {
     text-align: center;
     letter-spacing: 1px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #FFFFFF;
 }
-ul{
+
+ul {
     list-style: none;
 }
-img{
+
+img {
     width: 100%;
 }
+
 .btn-primary {
     padding: 15px 25px;
     border: 0;
@@ -60,6 +64,7 @@ img{
     transition: all 0.2s ease-in-out;
 
 }
+
 .btn-primary span {
     background: linear-gradient(243.41deg, #5FFBF1 -0.69%, #86A8E7 39.69%, #D16BA5 100%);
     -webkit-background-clip: text;
@@ -67,10 +72,12 @@ img{
     background-clip: text;
     text-fill-color: transparent;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background: linear-gradient(243.41deg, #5FFBF1 -0.69%, #86A8E7 39.69%, #D16BA5 100%);
 }
-.btn-primary:hover span{
+
+.btn-primary:hover span {
     background: #FFFFFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -86,43 +93,76 @@ header {
     height: auto;
     width: 100%;
 }
-header>.container{
+
+header>.container {
     padding-top: 30px;
 }
+
 /* NAVBAR STYLES */
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.small-menu{
+
+.small-menu {
     display: none;
     font-size: 40px;
 }
+
 .menu ul {
     display: flex;
     gap: 40px;
 }
-.menu ul li:hover a{
+
+.menu ul li:hover a {
     text-decoration: underline;
 }
-.header-banner{
-    padding-top: 100px;
+
+.header-banner {
+    padding-top: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header-banner>div{
+
+.header-banner>div {
     width: 45%;
 }
-.banner-description{
-    margin:30px  0px;
+
+.banner-description {
+    margin: 30px 0px;
 }
-.header-btn{
+
+.header-btn {
     background: none;
     border: 3px solid #FFFFFF;
 }
-.header-btn:hover{
+
+.header-btn:hover {
     background: none;
     text-decoration: underline;
+}
+
+/* ----------------------
+    MAIN STYLES
+-------------------------*/
+/* CARD SECTION */
+.cards{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.card {
+    background: linear-gradient(243.41deg, #5FFBF1 -0.69%, #86A8E7 39.69%, #D16BA5 100%);
+    border-radius: 20px;
+    width: 30%;
+    padding: 50px 46px;
+}
+.card i{
+    font-size: 50px;
+    margin-bottom: 19px;
+}
+.card-title{
+    margin-bottom: 19px;
 }
