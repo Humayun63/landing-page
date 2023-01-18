@@ -1,0 +1,30 @@
+/* ----------------------
+    MOBILE DEVICE
+-------------------------*/
+@media only screen and (max-width:668px) {
+    .container{
+        width: 100%;
+        padding:10px 15px;
+    }
+    /* HEADER */
+    .small-menu{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+}
+
+/* ------------------------------
+    MEDIAM OR TABLET DEVICE
+---------------------------------*/
+@media only screen and (min-width:669px) and (max-width:992px) {
+    /* HEADER */
+    .navbar{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .navbar a{
+        font-size: 25px;
+    }
+}
