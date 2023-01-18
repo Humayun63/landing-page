@@ -149,12 +149,13 @@ header>.container {
     MAIN STYLES
 -------------------------*/
 /* CARD SECTION */
-.cards{
+.cards,
+.review-section{
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-.card {
+.card{
     background: linear-gradient(243.41deg, #5FFBF1 -0.69%, #86A8E7 39.69%, #D16BA5 100%);
     border-radius: 20px;
     width: 30%;
@@ -189,4 +190,28 @@ header>.container {
 }
 .section-title{
     margin-bottom: 30px;
+}
+/* REVIEW SECTION */
+.review-item{
+    background: linear-gradient(243.41deg, #5FFBF1 -0.69%, #86A8E7 39.69%, #D16BA5 100%);
+    border-radius: 20px;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    text-align: justify;
+}
+.review-box-item{
+    width:60%;
+}
+.author-image{
+    width:30%;
+    padding: 25px 10px 0;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.author-name{
+    text-align: left;
+    margin-bottom: 20px;
 }
