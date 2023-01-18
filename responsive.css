@@ -29,11 +29,18 @@
     }
     /* MAIN SECTION */
     /* CARDS SECTION */
-    .cards{
+    .cards,
+    .about-me-content{
         flex-direction: column;
         gap: 20px;
     }
     .card{
+        width: 100%;
+    }
+    .about-me-content div{
+        width: 70%;
+    }
+    .about-me-content article{
         width: 100%;
     }
 }
@@ -76,5 +83,17 @@
     }
     .card{
         width: 100%;
+    }
+    .about-me-thumbline{
+        width: 30%;
+        background: #FFFFFF;
+        border-radius: 10px;
+    }
+    .about-me-thumbline img{
+        border-radius: 10px;
+        padding: 0;
+    }
+    .about-me-text-box{
+        width: 60%;
     }
 }
