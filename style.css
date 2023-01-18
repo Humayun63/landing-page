@@ -44,7 +44,9 @@ a{
 ul{
     list-style: none;
 }
-
+img{
+    width: 100%;
+}
 .btn-primary {
     padding: 15px 25px;
     border: 0;
@@ -81,6 +83,8 @@ ul{
 -------------------------*/
 header {
     background: linear-gradient(243.41deg, #5FFBF1 -0.69%, #86A8E7 39.69%, #D16BA5 100%);
+    height: 90vh;
+    width: 100%;
 }
 header>.container{
     padding-top: 30px;
@@ -100,5 +104,25 @@ header>.container{
     gap: 40px;
 }
 .menu ul li:hover a{
+    text-decoration: underline;
+}
+.header-banner{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-banner>div{
+    width: 45%;
+}
+.banner-description{
+    margin:30px  0px;
+}
+.header-btn{
+    background: none;
+    border: 3px solid #FFFFFF;
+}
+.header-btn:hover{
+    background: none;
     text-decoration: underline;
 }
