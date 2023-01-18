@@ -27,6 +27,15 @@
     .banner-title{
         font-size: 30px;
     }
+    /* MAIN SECTION */
+    /* CARDS SECTION */
+    .cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card{
+        width: 100%;
+    }
 }
 
 /* ------------------------------
@@ -58,5 +67,14 @@
     .banner-description{
         margin:20px  0px;
 
+    }
+    /* MAIN SECTION */
+    /* CARDS SECTION */
+    .cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card{
+        width: 100%;
     }
 }
