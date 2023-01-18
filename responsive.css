@@ -2,46 +2,65 @@
     MOBILE DEVICE
 -------------------------*/
 @media only screen and (max-width:668px) {
-    .container{
+    .container {
         width: 100%;
-        padding:10px 15px;
+        padding: 10px 15px;
     }
+
     /* HEADER */
-    header{
+    header {
         height: auto;
     }
-    .small-menu{
+
+    .small-menu {
         display: block;
     }
-    .menu{
+
+    .menu {
         display: none;
     }
-    .header-banner{
+
+    .header-banner {
         flex-direction: column-reverse;
         gap: 20px;
         padding-top: 20px;
     }
-    .header-banner >div{
+
+    .header-banner>div {
         width: 100%;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 30px;
     }
+
     /* MAIN SECTION */
     /* CARDS SECTION */
     .cards,
-    .about-me-content{
+    .about-me-content,
+    .review-item,
+    .review-section {
         flex-direction: column;
         gap: 20px;
     }
-    .card{
+
+    .card,
+    .review-item,
+    .review-box-item {
         width: 100%;
     }
-    .about-me-content div{
+
+    .about-me-content div {
         width: 70%;
     }
-    .about-me-content article{
+
+    .about-me-content article {
         width: 100%;
+    }
+
+    /* REVIEW SECTION */
+    .author-image {
+        width: 70%;
     }
 }
 
@@ -49,51 +68,64 @@
     MEDIAM OR TABLET DEVICE
 ---------------------------------*/
 @media only screen and (min-width:669px) and (max-width:992px) {
-    *{
+    * {
         font-size: 18px;
     }
+
     /* HEADER */
-    header{
+    header {
         height: auto;
     }
-    .navbar{
+
+    .navbar {
         flex-direction: column;
         gap: 20px;
     }
-    .navbar a{
+
+    .navbar a {
         font-size: 25px;
     }
-    .header-banner{
+
+    .header-banner {
         padding-top: 40px;
         flex-direction: column-reverse;
         gap: 20px;
     }
-    .header-banner>div{
+
+    .header-banner>div {
         width: 100%;
     }
-    .banner-description{
-        margin:20px  0px;
+
+    .banner-description {
+        margin: 20px 0px;
 
     }
+
     /* MAIN SECTION */
     /* CARDS SECTION */
-    .cards{
+    .cards,
+    .review-section {
         flex-direction: column;
         gap: 20px;
     }
-    .card{
+
+    .card,
+    .review-item {
         width: 100%;
     }
-    .about-me-thumbline{
+
+    .about-me-thumbline {
         width: 30%;
         background: #FFFFFF;
         border-radius: 10px;
     }
-    .about-me-thumbline img{
+
+    .about-me-thumbline img {
         border-radius: 10px;
         padding: 0;
     }
-    .about-me-text-box{
+
+    .about-me-text-box {
         width: 60%;
     }
 }
